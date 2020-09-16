@@ -1,0 +1,148 @@
+#details-blog {
+    .container-main {
+        .row {
+            .column {
+                margin-top: 80px;
+                width: 50%;
+                h1 {
+                    font-size: 40px;
+                }
+                h2 {
+                    font-size: 18px;
+                }
+                h3 {
+                    font-size: 16px;
+                }
+                button {
+                    margin-top: 34px;
+                    background-color: #f56962;
+                    border: none;
+                    border-radius: 4px;
+                    color: white;
+                    width: 223px;
+                    height: 57px;
+                    float: right;
+                }
+            }
+        }
+        h3 {
+            font-size: 18px;
+            text-align: center;
+        }
+        .big-borders {
+            width: 1170px;
+            height: 484px;
+            background-color: #707070;
+            display: inline-block;
+        }
+        .row-6 {
+            display: flex;
+            // justify-content: space-between;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            &:after {
+                content: "";
+                clear: both;
+            }
+            .column-6 {
+                width: calc(100% / 6);
+                text-align: center;
+                font-size: 26px;
+                .color {
+                    color: white;
+                    width: 180px;
+                    height: 50px;
+                    background-color: #4761a6;
+                    display: inline-block;
+                }
+                .color1 {
+                    color: white;
+                    width: 180px;
+                    display: inline-block;
+                    height: 50px;
+                    background-color: #56b4f5;
+                }
+                .color2 {
+                    color: white;
+                    width: 180px;
+                    display: inline-block;
+                    height: 50px;
+                    background-color: #3c82c0;
+                }
+                .color3 {
+                    color: white;
+                    width: 180px;
+                    display: inline-block;
+                    height: 50px;
+                    background-color: #f54504;
+                }
+                .color4 {
+                    color: white;
+                    width: 180px;
+                    display: inline-block;
+                    height: 50px;
+                    background-color: #54cc61;
+                }
+                .color5 {
+                    color: white;
+                    display: inline-block;
+                    width: 180px;
+                    height: 50px;
+                    background-color: #d51000;
+                }
+            }
+        }
+        .row-5 {
+            display: flex;
+            // justify-content: space-between;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            &:after {
+                content: "";
+                clear: both;
+            }
+            .column-5 {
+                width: calc(100% / 5);
+                margin-top: 50px;
+
+                span {
+                    // margin-left: 160px;
+                    display: inline-block;
+                    width: 141px;
+                    height: 58px;
+                    background-color: #a3a3a3;
+                    color: white;
+                    border-radius: 5px;
+                }
+            }
+        }
+        .row-4 {
+            display: flex;
+            // justify-content: space-between;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            &:after {
+                content: "";
+                clear: both;
+            }
+            .column-4 {
+                margin-top: 50px;
+                width: calc(100% / 4);
+                span {
+                }
+                button {
+                    // margin-top: 0px;
+                    // margin-left: 101px;
+                    width: 172px;
+                    height: 53px;
+                    background-color: #ffffff;
+                    border-color: #f56962;
+                    border-style: solid;
+                    // border: none;
+                    color: #f56962;
+                }
+            }
+        }
+    }
+}

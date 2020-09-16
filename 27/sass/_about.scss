@@ -1,0 +1,72 @@
+#aboutPage {
+  @extend %myNavbarExtend;
+
+  #aboutUs {
+    @extend %aboutUsExtend;
+
+    .aboutUsImage {
+      img {
+        right: 0px;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  #breadCramb {
+    background-image: url("../img/breadcrumb-2.png");
+    background-repeat: no-repeat;
+    padding: 110px 0;
+    margin-top: 74px;
+    .bcWrapper {
+      text-align: center;
+      h1 {
+        font-size: $page-text-size;
+        font-weight: 700;
+        margin-top: -5px;
+        font-weight: 700;
+        color: white;
+        margin: 10px;
+      }
+      p {
+        color: white;
+        a {
+          text-decoration: none;
+          color: white;
+          transition: all 0.2s linear;
+
+          &:hover {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+
+  #counter {
+    padding-bottom: 110px;
+    padding-top: 80px;
+    background-color: $main-color;
+    .item {
+      text-align: center;
+      .icon {
+        i {
+          color: white;
+          font-size: 40px;
+          margin-bottom: 20px;
+        }
+      }
+
+      h2 {
+        font-size: $title-size;
+        font-weight: 600;
+        color: white;
+        font-family: $sec-font;
+      }
+      p {
+        color: white;
+        font-weight: 600;
+        font-size: $text-size;
+      }
+    }
+  }
+}

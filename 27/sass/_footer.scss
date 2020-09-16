@@ -1,0 +1,215 @@
+footer {
+  background-image: url("../img/footer-bg.jpg");
+  background-size: cover;
+  padding: 100px 0px 0px 0px;
+
+  #toTop {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    .toTopWrapper {
+      width: 40px;
+      height: 40px;
+      background-color: $main-color;
+      text-align: center;
+      cursor: pointer;
+      transform: scale(0);
+      transition: all 0.3s linear;
+
+      span {
+        color: white;
+        line-height: 40px;
+      }
+    }
+  }
+
+  #footerTop {
+    .socials {
+      .logo {
+        a {
+          img {
+          }
+        }
+      }
+
+      .text {
+        p {
+          color: white;
+          font-size: $text-size;
+          margin-top: 25px;
+          line-height: 28px;
+          font-family: $main-font;
+        }
+      }
+
+      .social {
+        ul {
+          list-style: outside none none;
+          margin: 0;
+          padding: 0;
+          margin-top: 20px;
+          li {
+            display: inline-block;
+            margin-right: 5px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            border: 1px solid white;
+            text-align: center;
+            line-height: 31px;
+            transition: all 0.2s linear;
+            a {
+              text-decoration: none;
+              i {
+                color: white;
+                transition: all 0.2s linear;
+              }
+            }
+
+            &:hover {
+              border-color: darken(white, 30%);
+
+              a {
+                i {
+                  color: darken(white, 30%);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .services {
+      .title {
+        margin-bottom: 30px;
+        h4 {
+          color: white;
+        }
+      }
+
+      .service {
+        ul {
+          list-style: outside none none;
+          margin: 0;
+          padding: 0;
+          li {
+            color: white;
+            margin-bottom: 10px;
+            font-size: $text-size;
+            a {
+              color: white;
+              text-decoration: none;
+              transition: all 0.2s linear;
+
+              &:hover {
+                color: darken(white, 30%);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .contacts {
+      .title {
+        margin-bottom: 30px;
+        h4 {
+          color: white;
+        }
+      }
+
+      .contact {
+        ul {
+          list-style: outside none none;
+          margin: 0;
+          padding: 0;
+          li {
+            color: white;
+            margin-bottom: 10px;
+            font-size: $text-size;
+            a {
+              color: white;
+              text-decoration: none;
+              transition: all 0.2s linear;
+
+              &:hover {
+                color: darken(white, 30%);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .feeds {
+      .title {
+        margin-bottom: 30px;
+        h4 {
+          color: white;
+        }
+      }
+
+      .feed {
+        display: flex;
+        overflow: hidden;
+        flex-wrap: wrap;
+
+        .feedItem {
+          margin-right: 10px;
+          margin-top: 10px;
+          width: calc((100% - 20px) / 3);
+          overflow: hidden;
+          cursor: pointer;
+          img {
+            width: 100%;
+            transition: all 0.2s linear;
+          }
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          &:nth-child(3) {
+            margin-right: 0;
+          }
+
+          &:hover {
+            img {
+              transform: scale(1.2);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #footerBottom {
+    .copyright {
+      padding: 30px 0px;
+      border-top: 1px solid white;
+      margin-top: 70px;
+      p {
+        color: white;
+        text-align: center;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  footer{
+    #footerTop{
+      .services{
+        margin-top: 45px;
+      }
+      .contacts{
+        margin-top: 45px;
+      }
+      .feeds{
+        margin-top: 45px;
+      }
+    }
+  }
+}

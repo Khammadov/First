@@ -1,0 +1,205 @@
+#three-card {
+    text-align: center;
+    .container-main {
+        .row {
+            .column {
+                width: 50%;
+                h1 {
+                    font-size: 40px;
+                    color: #302d3a;
+                }
+                button {
+                    width: 144px;
+                    height: 53px;
+                    background-color: #f56962;
+                    border-radius: 4px;
+                    float: right;
+                    color: white;
+                }
+            }
+        }
+        .row-card {
+            display: flex;
+            // justify-content: space-between;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            &:after {
+                content: "";
+                clear: both;
+            }
+            .column-card {
+                width: calc(100% / 3);
+                .bg-col {
+                    width: 370px;
+                    height: 370px;
+                    background-color: #fef0ef;
+                    span {
+                        .fas {
+                            margin-top: 50px;
+                            font-size: 34px;
+                        }
+                    }
+                    h2 {
+                    }
+                    h3 {
+                    }
+                    .small {
+                    }
+                }
+            }
+        }
+    }
+}
+#know1 {
+    // width: 770px;
+    height: 841px;
+    background-color: #fef0ef;
+    margin-top: 80px;
+    .container-main {
+        justify-items: center;
+        align-items: center;
+        .row {
+            .column {
+                width: 50%;
+                h1 {
+                    font-size: 40px;
+                }
+                span {
+                    font-size: 24px;
+                    color: #5f5982;
+                    .far {
+                        margin-right: 15px;
+                        color: #43c8b1;
+                    }
+                }
+                button {
+                    margin-top: 34px;
+                    background-color: #f56962;
+                    border: none;
+                    border-radius: 4px;
+                    color: white;
+                    width: 223px;
+                    height: 57px;
+                }
+                .border {
+                    // margin-left: 50px;
+                    // margin-top: 66px;
+                    width: 500px;
+                    height: 631px;
+                    background-color: white;
+                    display: inline-block;
+                    border-radius: 130px 0px 0px 0px;
+                    -moz-border-radius: 130px 0px 0px 0px;
+                    -webkit-border-radius: 130px 0px 0px 0px;
+                    border: 10px solid #ff0000;
+                    .borders {
+                        margin-left: 50px;
+                        margin-top: 66px;
+                        width: 500px;
+                        height: 631px;
+                        display: inline-block;
+                        background-color: #707070;
+                        border-radius: 130px 0px 0px 0px;
+                        -moz-border-radius: 130px 0px 0px 0px;
+                        -webkit-border-radius: 130px 0px 0px 0px;
+                        border: 0px solid #000000;
+                    }
+                }
+            }
+        }
+    }
+}
+#video1 {
+    .container-main {
+        .row {
+            background-color: #effcfa;
+            height: 524px;
+            .column {
+                margin-top: 80px;
+                width: 50%;
+                h1 {
+                    width: 500px;
+                    font-size: 36px;
+                }
+                h4 {
+                }
+                .borders {
+                    margin-left: 160px;
+                    display: inline-block;
+                    width: 478px;
+                    height: 364px;
+                    background-color: #a3a3a3;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+#about1 {
+    text-align: center;
+    .container-main {
+        .row {
+            h1 {
+                font-size: 40px;
+                text-align: center;
+            }
+            .column {
+                width: calc(100% / 2);
+                .small {
+                    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+                    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+                    margin-top: 50px;
+                    margin-left: 90px;
+                    width: 176px;
+                    height: 222px;
+                    display: block;
+                    background-color: #f7f7f8;
+                    border-radius: 24px;
+                }
+                .medium {
+                    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+                    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+                    margin-left: 330px;
+                    margin-top: -90px;
+                    width: 207px;
+                    height: 255px;
+                    display: block;
+                    background-color: #f7f7f8;
+                    border-radius: 24px;
+                }
+                .big {
+                    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+                    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+                    margin-top: -30px;
+                    width: 244px;
+                    height: 362px;
+                    display: block;
+                    background-color: #f7f7f8;
+                    border-radius: 24px;
+                }
+                h2 {
+                    margin-top: 50px;
+                    height: 52px;
+                    font-size: 24px;
+                    color: #302d3a;
+                }
+                h3 {
+                    font-size: 16px;
+                    color: #302d3a;
+                }
+                .top2 {
+                    margin-top: 89px;
+                }
+                .top3 {
+                    margin-top: 89px;
+                }
+            }
+            .sol {
+                // margin-left: 340px;
+            }
+        }
+    }
+}

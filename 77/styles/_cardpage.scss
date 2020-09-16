@@ -1,0 +1,180 @@
+#card-menu {
+    .container-main {
+        h1 {
+            font-size: 40px;
+            margin-top: 80px;
+        }
+        .row {
+            .column-esas {
+                // justify-content: center;
+                width: calc(100% / 3);
+                .card-item {
+                    margin-top: 30px;
+                    width: 800px;
+                    height: 185px;
+                    background-color: white;
+                    // display: inline-block;
+                    border-style: solid;
+
+                    border-color: black;
+                    .row {
+                        .column {
+                            width: calc(100% / 4);
+                            .borders {
+                                width: 150px;
+                                height: 124px;
+                                background-color: darkgrey;
+                                display: inline-block;
+                                border-radius: 5px;
+                                margin-left: 30px;
+                                margin-top: 30px;
+                            }
+                            .small-container {
+                                width: 265px;
+                                height: 114px;
+                                h2 {
+                                    font-size: 23px;
+                                }
+                                .small-borders {
+                                    border-radius: 8px;
+                                    width: 40px;
+                                    height: 40px;
+                                    background-color: darkgrey;
+                                    display: inline-block;
+                                    h5 {
+                                        font-size: 14px;
+                                        margin-left: 45px;
+                                        margin-top: 10px;
+                                        width: 100px;
+                                    }
+                                }
+                            }
+                            h3 {
+                                font-size: 24px;
+                                margin-left: 75px;
+                            }
+                            h4 {
+                                margin-left: 75px;
+                                width: 143px;
+                                font-size: 18px;
+                            }
+                            .icons-card .far {
+                                margin-top: 81px;
+                                margin-left: 95px;
+                                color: red;
+                                font-size: 32px;
+                            }
+                        }
+                    }
+                }
+            }
+            .color1 {
+                // display: none;
+                background-color: #fef0ef;
+                width: 341px;
+                height: 325px;
+                margin-left: 439px;
+                margin-top: 30px;
+                justify-content: center;
+                // text-align: center;
+                .check-out {
+                    transition: 0.3s ease;
+                    text-align: center;
+                    // display: none;
+                    .payment-seen {
+                        background-color: #f56962;
+                        border: none;
+                        border-radius: 4px;
+                        color: white;
+                        width: 283px;
+                        height: 56px;
+                        // margin-top: 84px;
+                        margin-top: 30px;
+                        // margin-left: 530px;
+                    }
+                    input {
+                        margin-top: 30px;
+                        height: 53px;
+                        width: 283px;
+                        font-size: 16px;
+                        border-radius: 5px;
+                        border: none;
+                        outline-style: none;
+                    }
+                    input[type="text"]:focus {
+                        border-color: dodgerBlue;
+                        box-shadow: 0 0 8px 0 dodgerBlue;
+                    }
+
+                    .inputWithIcon input[type="text"] {
+                        padding-left: 40px;
+                    }
+                    .inputWithIcon input[type="text"]:focus + i {
+                        color: dodgerBlue;
+                    }
+                    .icon {
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        position: relative;
+                        background-color: #f56962;
+                        width: 96px;
+                        height: 55px;
+                        top: -55px;
+                        margin-left: 230px;
+                        color: white;
+                    }
+                    .icon .fas {
+                        color: white;
+                        font-size: 18px;
+                        margin-left: 30px;
+                        margin-top: 17px;
+                    }
+                }
+                .payment {
+                    display: none;
+                    background-color: #fef0ef;
+                    width: 341px;
+                    height: 613px;
+                    transition: 0.3s ease;
+                    text-align: center;
+                    // margin-left: 439px;
+                    // margin-top: 30px;
+                    // margin-top: -379px;
+                    justify-content: center;
+                    // text-align: center;
+                    button {
+                        background-color: #f56962;
+                        border: none;
+                        border-radius: 4px;
+                        color: white;
+                        width: 283px;
+                        height: 56px;
+                        // margin-top: 84px;
+                        margin-top: 30px;
+                        // margin-left: 530px;
+                    }
+                    input {
+                        margin-top: 30px;
+                        height: 53px;
+                        width: 283px;
+                        font-size: 16px;
+                        border-radius: 5px;
+                        border: none;
+                        outline-style: none;
+                    }
+                    input[type="text"]:focus {
+                        border-color: dodgerBlue;
+                        box-shadow: 0 0 8px 0 dodgerBlue;
+                    }
+
+                    .inputWithIcon input[type="text"] {
+                        // padding-left: 40px;
+                    }
+                    .inputWithIcon input[type="text"]:focus + i {
+                        color: dodgerBlue;
+                    }
+                }
+            }
+        }
+    }
+}

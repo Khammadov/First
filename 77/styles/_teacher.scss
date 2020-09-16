@@ -1,0 +1,83 @@
+#teacher {
+    background-color: #fef0ef;
+    border-radius: 15px;
+    .container-main {
+        .row {
+            .column {
+                width: 50%;
+                margin-top: 80px;
+                .border {
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    width: 300px;
+                    height: 300px;
+                    background-color: white;
+                    -webkit-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.8);
+                    -moz-box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.8);
+                    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.8);
+                    .borders {
+                        // margin: auto;
+                        width: 268px;
+                        height: 268px;
+                        display: block;
+                        background-color: #707070;
+                    }
+                }
+                .row-small {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    margin: 0 auto;
+                    .column-small {
+                        width: calc(100% / 2);
+                        h1 {
+                            font-size: 24px;
+                        }
+                        button {
+                            margin-top: 20px;
+                            margin-left: 150px;
+                            background-color: #fef0ef;
+                            border-style: solid;
+                            border-color: #f56962;
+                            border-radius: 15px;
+                            width: 109px;
+                            height: 53px;
+                        }
+                    }
+                }
+                h3 {
+                    font-size: 16px;
+                }
+                .row-icons {
+                    justify-content: space-between;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 0 auto;
+                    .column-icons {
+                        width: calc(100% / 3);
+                        span {
+                            font-size: 14px;
+                            .far {
+                                font-size: 24px;
+                            }
+                            .fa-eye {
+                                color: orange;
+                            }
+                            .fa-star {
+                                color: red;
+                            }
+                            .fa-play-circle {
+                                color: green;
+                            }
+                        }
+                    }
+                }
+            }
+            .left {
+                margin-left: -400px;
+            }
+        }
+    }
+}

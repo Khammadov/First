@@ -1,0 +1,308 @@
+#courseheader {
+    background-color: #efeff6;
+}
+#course-car-1 {
+    background-color: #efeff6;
+    .container-main {
+        // justify-content: center;
+        // align-content: center;
+        // align-items: center;
+        .row {
+            .column {
+                margin-top: 80px;
+                width: calc(100% / 2);
+                h1 {
+                    font-size: 40px;
+                    color: #302d3a;
+                }
+                button {
+                    margin-top: 70px;
+                    // margin-left: 101px;
+                    float: right;
+                    width: 172px;
+                    height: 53px;
+                    background-color: #efeff6;
+                    border-color: #f56962;
+                    border-style: solid;
+                    // border: none;
+                    color: #f56962;
+                }
+            }
+        }
+        .car-1-1 {
+            // margin-left: 165px;
+            margin-top: 50px;
+            .card2-2 {
+                background-color: #ffffff;
+                border-radius: 5px;
+                width: 570px;
+                height: 245px;
+                .row-1 {
+                    display: flex;
+
+                    flex-wrap: wrap;
+                    .column-1 {
+                        margin-top: 20px;
+                        width: 50%;
+                        .img-area {
+                            margin-left: 30px;
+                            margin-top: 22px;
+                            width: 148px;
+                            height: 167px;
+                            display: inline-block;
+                            background-color: #f7f7f8;
+                        }
+                        h2 {
+                            font-size: 14px;
+                        }
+                        h1 {
+                            font-size: 24px;
+                        }
+                        span {
+                            border-radius: 8px;
+                            width: 39px;
+                            height: 40px;
+                            display: inline-block;
+                            background-color: #f7f7f8;
+                            h2 {
+                                margin-top: 0px;
+                                margin-left: 50px;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#cours1 {
+    // background-color: #efeff6;
+    height: 1328px;
+    margin-top: 80px;
+    .container-main {
+        .row {
+            .column {
+                width: 50%;
+                button {
+                    background-color: #f56962;
+                    border: none;
+                    border-radius: 4px;
+                    color: white;
+                    width: 121px;
+                    height: 55px;
+                    margin-top: 84px;
+                    // margin-left: 530px;
+                    float: right;
+                }
+                h1 {
+                    margin-top: 80px;
+                    font-size: 40px;
+                }
+            }
+            .cont {
+                .row {
+                    .column {
+                        width: calc(100% / 4);
+                        .card-course-img {
+                            -webkit-box-shadow: 0px -2px 18px -3px rgba(0, 0, 0, 0.75);
+                            -moz-box-shadow: 0px -2px 18px -3px rgba(0, 0, 0, 0.75);
+                            box-shadow: 0px -2px 18px -3px rgba(0, 0, 0, 0.75);
+                        }
+                    }
+                    .sol {
+                        margin-left: 135px;
+                    }
+                }
+            }
+        }
+    }
+}
+#car-1-2 {
+    background-color: #efeff6;
+    .container-main {
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        .row {
+            margin-top: 80px;
+            .column {
+                width: 50%;
+                h1 {
+                    font-size: 40px;
+                    color: #302d3a;
+                    width: 788px;
+                }
+                button {
+                    background-color: #f56962;
+                    border: none;
+                    border-radius: 4px;
+                    color: white;
+                    width: 121px;
+                    height: 57px;
+                    margin-top: 60px;
+                    float: right;
+                    // margin-left: 530px;
+                }
+            }
+        }
+        // .owl-carousel {
+        //     margin-left: 195px;
+        // }
+    }
+}
+#coac {
+    margin-top: 80px;
+    background-color: #fef0ef;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    height: 389px;
+    .container-main {
+        .row {
+            .column {
+                width: 100%;
+                h1 {
+                    font-size: 40px;
+                    color: #302d3a;
+                }
+                h4 {
+                    font-size: 24px;
+                    color: #5f5982;
+                }
+                button {
+                    background-color: #f56962;
+                    border: none;
+                    border-radius: 4px;
+                    color: white;
+                    width: 155px;
+                    height: 57px;
+                    // margin-top: 84px;
+                    // margin-left: 530px;
+                }
+            }
+        }
+    }
+}
+#car-1 {
+    background-color: #fef0ef;
+    .container-main {
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        .row {
+            margin-top: 80px;
+            .column {
+                width: 50%;
+                h1 {
+                    font-size: 40px;
+                    color: #302d3a;
+                    width: 788px;
+                }
+                button {
+                    background-color: #f56962;
+                    border: none;
+                    border-radius: 4px;
+                    color: white;
+                    width: 121px;
+                    height: 57px;
+                    margin-top: 84px;
+                    margin-left: 530px;
+                }
+            }
+        }
+        .owl-carousel {
+            // margin-left: 195px;
+        }
+    }
+}
+#favorite {
+    .container-main {
+        .row {
+            .column {
+                width: 50%;
+                h1 {
+                    width: 876px;
+                    margin-top: 80px;
+                    font-size: 40px;
+                }
+                button {
+                    background-color: #f56962;
+                    border: none;
+                    border-radius: 4px;
+                    color: white;
+                    width: 221px;
+                    height: 53px;
+                    margin-top: 84px;
+                    margin-left: 460px;
+                }
+            }
+            .icons {
+                .row {
+                    .column {
+                        width: calc(100% / 4);
+                        // margin-left: 26px;
+                        span {
+                            width: 270px;
+                            height: 380px;
+                            display: inline-block;
+                            // margin-left: 29px;
+                            // position: relative;
+                            text-align: center;
+                            border-radius: 5px;
+                            // padding-left: 29px;
+
+                            p {
+                                font-size: 22px;
+                                color: #302d3a;
+                                margin-top: 30px;
+                            }
+                            .fas {
+                                font-size: 54px;
+                                margin-top: 37px;
+                            }
+                        }
+                        .blue {
+                            background-color: #efeff6;
+                            .fas {
+                                color: #5444a5;
+                            }
+                        }
+                        .orange {
+                            background-color: #fef3e8;
+                            .fas {
+                                color: #ef8543;
+                            }
+                        }
+                        .lightb {
+                            background-color: #ddf7ff;
+                            .fas {
+                                color: #18afed;
+                            }
+                        }
+                        .green {
+                            background-color: #e6faea;
+                            .fas {
+                                color: #5fd46d;
+                            }
+                        }
+                        .darkb {
+                            background-color: #efeff6;
+                            .fas {
+                                color: #5444a5;
+                            }
+                        }
+                        .yellow {
+                            background-color: #fef3e8;
+                            .fas {
+                                font-size: 54px;
+                                margin-top: 37px;
+                                color: #ef8543;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

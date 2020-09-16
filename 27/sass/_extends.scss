@@ -1,0 +1,139 @@
+%myNavbarExtend{
+    #myNavbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    
+      .navbar {
+        padding: 0;
+        .collapse {
+          .navbar-nav {
+            .nav-item {
+              margin-right: 58px;
+              .nav-link {
+                padding: 25px 0px;
+                color: $text-color;
+                text-transform: uppercase;
+                &::after {
+                  content: none;
+                }
+              }
+              &:last-child {
+                margin-right: 0px;
+              }
+    
+              &:hover {
+                .nav-link {
+                  color: $main-color;
+                }
+              }
+    
+              .dropdown-menu {
+                border-radius: 0;
+                border: none;
+                border-bottom: 2px solid $main-color;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+                top: 72px;
+    
+                .dropdown-item {
+                  transition: color 0.3s linear;
+    
+                  &:hover {
+                    background-color: unset !important;
+                    color: $main-color;
+                  }
+                }
+              }
+            }
+    
+            .navActive {
+              .nav-link {
+                color: $main-color;
+              }
+            }
+          }
+    
+          // .nav-item:last-child{
+    
+          // }
+        }
+      }
+    }
+    
+    .fixedPadding {
+      padding: 5px 0px !important;
+    }
+    
+    .makeFixed {
+      position: fixed !important;
+      top: 0;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      right: 0;
+      left: 0;
+      z-index: 999;
+      padding: 0px !important;
+      transition: padding 0.2s linear;
+    }
+}
+
+%aboutUsExtend{
+    padding: 150px 0px;
+    .aboutText {
+      h4 {
+        font-size: $sub-title-size;
+        font-weight: 600;
+        color: $main-color;
+        margin-bottom: 12px;
+        margin-top: -5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      h1 {
+        font-size: $title-size;
+        text-transform: capitalize;
+        font-weight: 700;
+        font-family: $sec-font;
+        margin-bottom: 15px;
+      }
+      p {
+        line-height: 28px;
+        font-size: $text-size;
+        font-family: $main-font;
+        color: $text-color;
+      }
+      ul {
+        list-style: outside none none;
+        margin: 0;
+        padding: 0;
+  
+        li {
+          padding-left: 40px;
+          position: relative;
+          margin-bottom: 8px;
+  
+          &::after {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            content: "";
+            background: $main-color;
+            width: 25px;
+            height: 1px;
+          }
+        }
+      }
+    }
+  
+    .aboutUsImage {
+      position: relative;
+      img {
+        position: relative;
+        max-width: 85%;
+        right: -70px;
+        top: 40px;
+        opacity: 0.6;
+      }
+    }
+}

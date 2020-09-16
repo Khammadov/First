@@ -1,0 +1,72 @@
+.card-course-img {
+    width: 350px;
+    height: 515px;
+    margin-top: 30px;
+    display: block;
+    background-color: white;
+    .card {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .aws {
+            font-size: 24;
+            font-weight: 400;
+        }
+        .phot1 {
+            margin-top: 17px;
+            width: 337px;
+            height: 263px;
+            background-color: #f7f7f8;
+            display: inline-block;
+            border: #f7f7f8;
+        }
+        .row-small {
+            display: flex;
+            flex-wrap: wrap;
+
+            .column {
+                font-size: 14px;
+                width: calc(100% / 3);
+                span {
+                    font-size: 14px;
+                    .star {
+                        color: #f3b23a;
+                    }
+                    .eye {
+                        color: #db4500;
+                    }
+                    .play {
+                        color: #3e9365;
+                    }
+                }
+            }
+        }
+    }
+    .val {
+        .row-small {
+            display: flex;
+            flex-wrap: wrap;
+            .column {
+                width: 50%;
+                span {
+                    width: 39px;
+                    height: 40px;
+                    display: inline-block;
+                    text-align: center;
+                    background-color: #f7f7f8;
+                }
+                .nam {
+                }
+                .end {
+                    font-size: 16px;
+                    color: gray;
+                    text-decoration: line-through;
+                }
+                .mon {
+                    font-size: 18px;
+                    color: #f68c20;
+                }
+            }
+        }
+    }
+}

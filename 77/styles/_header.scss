@@ -1,0 +1,40 @@
+header {
+    .container-main {
+        .row {
+            .column {
+                margin-top: 52px;
+                // width: calc(100% / 3);
+                img {
+                    // margin-left: 350px;
+                }
+                .menu {
+                    ul {
+                        li {
+                            // margin-left: 350px;
+                            text-decoration: none;
+                            display: inline-block;
+                        }
+                    }
+                }
+                span {
+                    // margin-left: 5px;
+                    padding: 15px;
+                    width: 25px;
+                    height: 25px;
+                }
+                button {
+                    background-color: #f56962;
+                    border: none;
+                    border-radius: 4px;
+                    color: white;
+                    width: 126px;
+                    height: 57px;
+                }
+            }
+            .sol {
+                float: right;
+                // margin-left: 30px;
+            }
+        }
+    }
+}

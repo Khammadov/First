@@ -1,0 +1,42 @@
+footer {
+    background-color: #282834;
+    // height: 530px;
+    .container-main {
+        .row {
+            .column {
+                margin-top: 80px;
+                margin-top: 73px;
+                width: calc(100% / 4);
+                h1 {
+                    font-size: 24px;
+                    color: white;
+                }
+                h3 {
+                    font-size: 18px;
+                    color: #91929a;
+                }
+            }
+        }
+        .icons {
+            .row {
+                .column {
+                    margin-top: 80px;
+                    width: calc(100% / 3);
+                    h1 {
+                        font-size: 18px;
+                        color: #777777;
+                        width: 600px;
+                    }
+                    span {
+                        font-size: 28px;
+                        color: #777777;
+                        margin-left: 38px;
+                    }
+                }
+                .sag {
+                    margin-left: 378px;
+                }
+            }
+        }
+    }
+}

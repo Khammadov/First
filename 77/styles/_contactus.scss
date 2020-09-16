@@ -1,0 +1,154 @@
+#about-mini {
+    background-color: #fef0ef;
+    .container-main {
+        .row {
+            .column {
+                margin-top: 80px;
+                width: 50%;
+                color: #302d3a;
+                h2 {
+                    font-size: 18px;
+                }
+                h1 {
+                    font-size: 40px;
+                }
+                h3 {
+                    font-size: 16px;
+                }
+                button {
+                    width: 160px;
+                    height: 57px;
+                    background-color: #f56962;
+                    border-radius: 4px;
+                    color: white;
+                }
+                .borders {
+                    width: 626px;
+                    height: 500px;
+                    background-color: #707070;
+                    border-radius: 5px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+#expandion {
+    .container-main {
+        .row {
+            .column {
+                margin-top: 80px;
+                width: 50%;
+                color: #302d3a;
+                h1 {
+                    font-size: 40px;
+                }
+                button {
+                    width: 160px;
+                    height: 57px;
+                    background-color: #f56962;
+                    border-radius: 4px;
+                    color: white;
+                    float: right;
+                }
+            }
+        }
+        .row-big {
+            display: flex;
+            // justify-content: space-between;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            &:after {
+                content: "";
+                clear: both;
+            }
+            .column-big {
+                margin-top: 80px;
+                width: 50%;
+                color: #302d3a;
+
+                h2 {
+                    font-size: 18px;
+                }
+                h1 {
+                    font-size: 40px;
+                }
+                h3 {
+                    font-size: 16px;
+                }
+                button {
+                    width: 160px;
+                    height: 57px;
+                    background-color: #f56962;
+                    border-radius: 4px;
+                    color: white;
+                }
+
+                .borders {
+                    width: 570px;
+                    height: 468px;
+                    background-color: #707070;
+                    border-radius: 5px;
+                    margin-top: 75px;
+                    display: block;
+                }
+                .color1 {
+                    width: 770px;
+                    height: 600px;
+                    background-color: #fef0ef;
+                }
+                .color2 {
+                    width: 770px;
+                    height: 600px;
+                    background-color: #6c63ff;
+                }
+                .color3 {
+                    width: 770px;
+                    height: 600px;
+                    background-color: #effcfa;
+                }
+            }
+        }
+    }
+}
+#two-card {
+    background-color: #fef0ef;
+    height: 430px;
+    .container-main {
+        .row {
+            margin-top: 80px;
+            .column {
+                // width: 50%;
+
+                .card-color {
+                    width: 570px;
+                    height: 270px;
+                    background-color: white;
+                    .borders-card {
+                        height: 80px;
+                        width: 80px;
+                        background-color: #bbb;
+                        border-radius: 50%;
+                        display: inline-block;
+                        margin-top: 20px;
+                        margin-left: 15px;
+                    }
+                    h3 {
+                        font-size: 24px;
+                    }
+                    h4 {
+                        width: 382px;
+                        font-size: 18px;
+                    }
+                    button {
+                        width: 209px;
+                        height: 57px;
+                        background-color: #f56962;
+                        border-radius: 4px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
